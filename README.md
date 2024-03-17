@@ -15,6 +15,7 @@
         <li><strong>React:</strong> Frontend framework for building the user interface components.</li>
         <li><strong>CSS:</strong> Styling and layout customization for a visually appealing design.</li>
         <li><strong>JavaScript:</strong> Dynamic functionality and interactivity within the application.</li>
+        <li><strong>Database:</strong> We have used mongodb as an database which stores username and tickets.</li>
         <li><strong>Git:</strong> Version control for collaborative development and project management.</li>
     </ul>
 
