@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  a.loginlink{
+    margin-top: 2px !important;
+  }
+  /* Card Styles */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  .card a {
+    color: #000;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 1.5em;
+    display: block;
+  }
+  
+  .card a:hover {
+    color: #8000ff;
+  }
+  
+  .card p {
+    font-size: 14px;
+  }
+  
+  /* Input Styles */
+  .inputBox,
+  .inputBox1 {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .inputBox input,
+  .inputBox1 input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    transition: 0.2s;
+    border-radius: 0;
+  }
+  
+  .inputBox span,
+  .inputBox1 span {
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    font-size: 14px;
+    color: #000;
+    transition: 0.3s;
+  }
+  
+  .inputBox input:valid ~ span,
+  .inputBox input:focus ~ span,
+  .inputBox1 input:valid ~ span,
+  .inputBox1 input:focus ~ span {
+    transform: translateY(-20px);
+    font-size: 12px;
+    color: #8000ff;
+  }
+  
+  /* Button Styles */
+  .enter {
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid #8000ff;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #8000ff;
+  }
+  
+  .enter:hover {
+    color: #fff;
+    background-color: #8000ff;
+    border: 2px solid #8000ff;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card {
+      width: 80%;
+      margin: 40px auto;
+    }
+  
+    .inputBox span,
+    .inputBox1 span {
+      font-size: 12px;
+      bottom: 6px;
+    }
+  
+    .inputBox input:valid ~ span,
+    .inputBox input:focus ~ span,
+    .inputBox1 input:valid ~ span,
+    .inputBox1 input:focus ~ span {
+      font-size: 10px;
+    }
+  
+    .enter {
+      height: 40px;
+      font-size: 12px;
+    }
+  }
+  

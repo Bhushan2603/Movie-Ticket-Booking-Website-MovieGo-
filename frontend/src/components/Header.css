@@ -1,0 +1,194 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+/* Logo */
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.go {
+    color: #8000ff;
+}
+.navLink {
+    justify-content: center;
+}
+
+/* Navigation */
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li {
+    position: relative;
+    top: 7px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 8px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.nav ul li a:hover {
+    color: #2e2e2e;
+    background-color: #8000ff;
+}
+
+/* Submenu */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2e2e2e;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    border-radius: 5px;
+}
+
+.nav li:hover .submenu {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.submenu li {
+    padding: 8px;
+    height: 48px;
+}
+
+.submenu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.submenu a:hover {
+    color: #8000ff;
+}
+
+/* Search Bar */
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #444;
+    color: white;
+    width: 250px;
+    /* letter-spacing: 1px; */
+}
+
+/* Auth Buttons */
+.auth a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: color 0.3s;
+    padding: 8px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.auth a:hover {
+    color: #2e2e2e;
+    background-color: #8000ff;
+}
+/* Add this CSS to your existing styles or create a new CSS file */
+
+/* Popup Message */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    text-align: center;
+  }
+  
+  .popup button {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .popup button:hover {
+    background-color: #8000ff;
+    color: white;
+  }
+  
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 20px;
+    }
+
+    .logo a {
+        font-size: 1.2rem;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .submenu {
+        left: -10%;
+    }
+
+    .search-bar input {
+        width: 200px;
+        padding: 8px;
+    }
+
+    .auth a {
+        margin-left: 10px;
+    }
+
+    /* Additional Styles for Smaller Screens (e.g., Mobile) */
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        margin-top: 10px;
+    }
+
+    .auth {
+        margin-top: 10px;
+    }
+}

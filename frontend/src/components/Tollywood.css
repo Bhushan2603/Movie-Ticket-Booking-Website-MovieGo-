@@ -1,0 +1,87 @@
+.h4 {
+    margin-bottom: 15px;
+    padding-top: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Recommended Movies */
+.recommended-movies {
+    margin-top: 30px;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 45px;
+}
+
+/* Movie Card */
+.movie-card {
+    flex: 0 0 auto;
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+    background-color: #333;
+    color: white;
+}
+
+/* Card Content */
+.movie-card img {
+    max-width: 100%;
+}
+
+.movie-card h3 {
+    margin: 10px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.movie-card p {
+    margin: 5px 0;
+    font-size: 0.8em;
+}
+.ratings:hover{
+    color: rgb(30, 239, 124);
+}
+.MovieTitle:hover{
+    color:  #8000ff;
+}
+
+.movie-card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.movie-card a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .movies-container {
+        justify-content: center;
+    }
+
+    .movie-card {
+        flex: 0 0 calc(50% - 30px);
+    }
+}
+
+/* Media Queries for Grid Layout */
+@media (max-width: 768px) {
+    .movie-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

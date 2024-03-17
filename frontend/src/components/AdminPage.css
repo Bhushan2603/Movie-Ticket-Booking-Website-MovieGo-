@@ -1,0 +1,91 @@
+/* AdminPage.css */
+
+.admin-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: darkturquoise;
+  }
+  .hr{ 
+    border: solid rgb(0, 0, 255) 1.5px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #8000ff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #c7bcbc;
+    border-radius: 5px;
+  }
+  
+  th,
+  td {
+    
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #ccc;
+  }
+  
+  thead {
+    
+    color: white;
+    background-color:   #3E168F;
+  }
+  
+  th {
+    
+    padding-left: 25px;
+    font-weight: bold;
+  }
+  .a1{
+    text-decoration: none;
+    color: white;
+  }
+  td{
+    padding-left: 25px;
+  }
+  .backbtn{
+    background-color: #8000ff;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  .comma-separated {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Responsive layout for smaller screens */
+  @media (max-width: 768px) {
+    th,
+    td {
+      font-size: 14px;
+      padding: 8px;
+    }
+    .admin-title {
+      font-size: 20px;
+    }
+    .section-title {
+      font-size: 18px;
+    }
+  }
+  

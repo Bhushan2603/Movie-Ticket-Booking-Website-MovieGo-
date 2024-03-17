@@ -1,0 +1,316 @@
+ /* Body CSS*/
+ body {
+   padding: 2% 5%;
+   font-family: 'Montserrat', sans-serif;
+   background-color: #f5f5f5;
+ }
+
+ /* Product Description CSS*/
+
+ .product-description {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+ }
+
+ .booking-card {
+   flex: 0 0 auto;
+   background-color: #333;
+   color: #f5f5f5;
+   border: 1px solid #ccc;
+   padding: 15px;
+   text-align: center;
+   width: 250px;
+   transition: transform 0.3s, box-shadow 0.3s;
+   margin: 10px;
+ }
+
+ .booking-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+   background-color: #333;
+   color: white;
+ }
+
+ .booking-card img {
+   max-width: 100%;
+ }
+
+ .movie-image {
+   width: 200px;
+   object-fit: cover;
+ }
+
+ .movie-details {
+   padding: 16px;
+ }
+
+ .movie-title {
+   font-size: 20px;
+   margin: 10px 0;
+   font-weight: bold;
+   letter-spacing: 0.5px;
+   color: #8000ff;
+ }
+
+ .movie-description {
+   font-size: 0.8em;
+   margin: 5px 0;
+ }
+
+ .movie-ratings {
+   font-size: 12px;
+   color: rgb(30, 239, 124);
+   margin-top: 8px;
+ }
+
+ /*Ticket Booking Form CSS*/
+
+ .booking-form {
+   flex: 1;
+   width: 75%;
+ }
+
+ .form-group {
+   margin: 13px 10px;
+   background-color: #333;
+   /* width: 100%; */
+   padding: 10px;
+ }
+
+ .form-group label {
+   font-weight: bold;
+   display: block;
+   margin-top: 5px;
+   margin-left: 10px;
+   color: #f5f5f5;
+ }
+
+ .input-field {
+   width: 25%;
+   padding: 5px;
+   margin: 5px 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+
+ .date {
+   margin: 7px;
+ }
+
+ .react-datepicker {
+   font-family: inherit;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   display: inline-block;
+   position: relative;
+   width: 100%;
+ }
+
+ .react-datepicker__input-container {
+   display: inline-block;
+ }
+
+ .react-datepicker__input-container input {
+   font-family: inherit;
+   width: 112%;
+   padding: 5px;
+   border: none;
+   border-radius: 4px;
+   background-color: #f7f7f7;
+ }
+
+ .react-datepicker__input-container input:focus {
+   outline: none;
+   background-color: #fff;
+   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+ }
+
+ .city-select {
+   width: 25%;
+   padding: 5px;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   margin: 5px;
+ }
+
+ .mobile-number-input {
+   width: 25%;
+   padding: 5px;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   margin: 5px;
+ }
+
+ .cinema-house-dropdown,
+ .time-slot-dropdown {
+   width: 25%;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   margin: 5px;
+   background-color: #fff;
+   color: #333;
+ }
+
+ .cinema-house-dropdown option,
+ .time-slot-dropdown option {
+   background-color: #fff;
+   color: #333;
+ }
+
+ .cinema-house-dropdown option:checked,
+ .time-slot-dropdown option:checked {
+   background-color: #007bff;
+   color: #fff;
+ }
+
+
+ .payment-method-select {
+   width: 26%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 16px;
+   color: #333;
+   background-color: #fff;
+   transition: border-color 0.3s ease;
+   margin-top: 10px;
+ }
+
+ .payment-method-select:focus {
+   outline: none;
+   border-color: #0365d6;
+ }
+
+
+
+ /* Book Seat */
+ .h2-title {
+   color: #333;
+   background-color: white;
+   text-align: center;
+   font-family: serif;
+   letter-spacing: 2px;
+ }
+
+ /* Seat Block CSS*/
+
+ .seat-selection {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 10px;
+ }
+
+ .seat-row {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 10px;
+   padding: 5px;
+   gap: 25px;
+ }
+
+ .seat-block {
+   width: 40px;
+   height: 35px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   margin-right: 5px;
+   background-color: #f0f0f0;
+   font-weight: bold;
+   font-size: 14px;
+   color: #555;
+   font-family: serif;
+   transition: background-color 0.3s, color 0.3s;
+ }
+
+ .seat-block:hover {
+   transform: translateY(-2px);
+   box-shadow: 0px 0px 10px 5px #8000ff;
+   border-radius: 10px;
+ }
+
+ .seat-block.selected {
+   background-color: #8000ff;
+   color: #fff;
+   border-radius: 10px;
+ }
+
+ .seat-block.unavailable {
+   background-color: red;
+   cursor: not-allowed;
+   border-radius: 10px;
+ }
+
+ /* Seat Block CSS*/
+
+ .seat-card {
+   width: 80%;
+   margin: 0 auto;
+   padding: 20px;
+   background: #333;
+   transition: all 0.3s;
+   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+   font-size: 30px;
+ }
+
+ .seat-card:hover {
+   cursor: pointer;
+   transform: translateY(-5px);
+   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
+ }
+
+ /* Book Now Button CSS */
+
+ .button-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+ }
+
+ .book-button {
+   background-color: #333;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 6px;
+   cursor: pointer;
+   font-family: serif;
+   font-weight: 550;
+   letter-spacing: 1px;
+   font-size: 16px;
+   margin-bottom: 15px;
+   transition: background-color 0.1s ease-in-out;
+ }
+
+ .book-button:hover {
+   background-color: #8000ff;
+ }
+
+ /* Media Query CSS*/
+
+ @media (max-width: 768px) {
+   .product-description {
+     flex-direction: column;
+   }
+
+   .product-banner {
+     margin-right: 0;
+     margin-bottom: 20px;
+   }
+
+   .booking-form {
+     width: 100%;
+     margin-bottom: 0;
+   }
+ }
