@@ -1,0 +1,71 @@
+1. Create a two components Sign up Page and Login page and also create its corresponding css file for a apply css.
+
+=> Sign up page container username, email id, password, confirm password and register button.
+   When user register it details using sign up form then user will be redirect to login page. Apply css
+   and animation in the Sign up page for a better look. you can also use libraries to look better.and all the 
+   web pages should be responsive so websites will be works on all the devices.
+
+=> Login page contains email id and password  and set login button to become a user of my website.
+   apply css and animation for a attractive look of Login page.
+
+
+Do this task without any error and you can take much time to thinking but result should be greate.if you have any query then ask me.
+
+2. After the successfully completion of signup page and login page you have to create Header.js.
+   Header.js components should be responsive so it works on laptops,mobiles as well as all the other digital          	screen.
+   => It contains Logo of the website which is " MovieGo " , Links which is Stream,Booking,About us,Account, Search          	bar to search a specific movie and last set a login/signup button for a user who are directly visits the  	website :
+   - Logo : Logo name should be MovieGo exactly in this format.
+   - Links : Set Hover Effects on Links For attractive look and set the sub menu on Stream link which is Bollywood,
+             Tollywood and HollyWood.
+   - Search Bar : Set Search bar for Searching All kinds of movies.Apply css on search bar.
+   - Login/Signup Button : Set this button after the search bar and apply Hover effects on it.
+  => Apply CSS on All the links ,logo,button and textbox.Also apply animation. If you have any query then ask me.
+
+3.Now you have to create Footer.js.Footer.js component should be responsive to works on all devices.
+=> It contains following Details:
+-Contact Information
+-Copy right information of icons MovieGo Website.Add some slogan for website.
+-Social Accounts link with icons
+Apply proper css for a better look of webpage.Footer.js should be responsive
+
+
+4.Now you have to create Stream.js component's in which user can see trending movies,recommend movies,the best live events,online streaming events etc. It contains Bollywood shows,Tollywood show and Hollywood shows etc. Stream.js components should be responsive so it works on all the devices.Do following task for clarification:
+
+- Set Top 10 trending movies with images and title.Set automatically sliding effect on trending movies.
+
+- Then Create Recommend movies section in which user can see recommend movies with image,movie          name,description,ratings,title etc.
+
+-Then Set Bollywood movies section it contains at least 10 movies with images and all the related details of the movie and set show more link after 10 movies completed.you can use card to set movies block wise. When user click on the show more links user should be redirect to the Bollywood.js components.
+
+-Then Set Hollywood movies section it contains at least 10 movies with images and all the related details of the movie and set show more link after 10 movies completed.you can use card to set movies block wise.When user click on the show more links user should be redirect to the Bollywood.js components.
+
+-Then Set Tollywood movies section it contains at least 10 movies with images and all the related details of the movie and set show more link after 10 movies completed.you can use card to set movies block wise.When user click on the show more links user should be redirect to the Bollywood.js components.
+
+Do this all task and also apply proper css for better looking and sliding effect on movies when it needed.
+
+
+5. Now you have to create Bollywood.js components which contains bollywood movies.Bollywood movies not should be more than 10.Bollywood.js components should be responsive so it works on all the devices.you can do that using css media query.Do following task for a better result:
+- Each movie should be in the card and cards should be set one by one.
+- Pass Movie data like title,id,description,ratings etc.
+- I want that effects on cards that first side should be display image of the movie and name of movie and when user       clicks on card then after 1 second card should flip and user can see movies details with ratings and also set 
+ " Book Now " button on the flip side of the cards.Apply hover effect on cards,button and etc where it needed.
+- Minimum 10 Movies should be display.
+
+Apply css for a better look and also set media query for all other screen so it works on all the devices.Do it without any error.
+
+
+5. Now you have to create a Booking.js and Booking.css components.Booking.js component should contain following Details:
+- In above all code you set the movie details in the card including movie name,ratings,description,id etc. And now when user clicks on that particular movie then user redirect to Booking.js with that particular card and all the related details of movie like whole card of that selected movies should be display in Booking.js at the left side.Not only for one movie but you have to do it for all movies so user can select his favourite movie and redirect to Booking.js.
+- Now when user redirect in Booking.js then Provides the following features for booking the movie ticket :
+  - Provides username,mobile number,city,email address,age etc.
+  - Once user entered above details then list out the all cinema house in that particular city so user can select 
+    the cinema which are near to their destination.
+  - Once user select the cinema house then provide the calender features to select a date to show the movie and when user select the date then you should display the timings of show and each movie duration is 2.30 hour. So you 
+can list timing accordingly this duration and shows timing not should be more than 6.On each day you should display 5 Show timing.
+  - Once user select timing,then display how many seats they wants to book.Once they entered how many seats they wants to book and calculates tickets amount with the seats they are booked, then provieds the payment method such as debit card,credit card,upi ,gpay,phone pe,paytm etc.
+  - Remember Executive class tickets price is : 140,Business class tickets price is : 280.You can adjusts this price in codes. 
+- Once user passed from all the above code then provides the " Book Tickets " button to Book the ticekts
+  When user booked the tickets successfully then display the message for user "Successfully Booked Tickets".
+
+This Booking.js components should be responsive so works on all other devices you can do that using css media query.
+Apply proper css for a better look and hover effects on button.Do this task without any error.You can take your time to thing but output should be perfect.If you have any query then ask me,i will give you answer. 
